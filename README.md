@@ -15,7 +15,7 @@ the following dependency to your `composer.json`:
 
         "require":
 	    {
-	    	"geekality/timer": "dev-master"
+	    	"geekality/timer": "1.*"
     	},
 
 Otherwise just download the file `Timer.php` from here and include it in your project.
