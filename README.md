@@ -10,7 +10,7 @@ of the Timer objects directly.
 Example usage
 ---
 
-Here is some sample output from the `sample/add.php` script in this repo.
+Here is some sample output from the [sample/add.php](sample/add.php) script in this repo.
 
     /TimerPHP/sample/add.php(3, 9)
      │ 
@@ -30,7 +30,7 @@ Here is some sample output from the `sample/add.php` script in this repo.
      │ ─┘ 
 
 If you want to see some actual usage of this class, you can check out my project,
-Svish/MyHymnal.
+[Svish/MyHymnal)(https://github.com/svish/MyHymnal).
 
 
 License
