@@ -1,5 +1,5 @@
 {
-    "name": "geekality/timerphp",
+    "name": "geekality/timer",
     "description": "Simple class for logging time and memory usage of stuff",
     "keywords": ["timer","benchmark","benchmarking","statistics"],
     "homepage": "https://github.com/Svish/TimerPHP",
