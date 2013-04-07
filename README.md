@@ -29,8 +29,9 @@ Here is some sample output from the [sample/add.php](sample/add.php) script in t
      │  │ 176.00 B, 732.41 KiB
      │ ─┘ 
 
-If you want to see some actual usage of this class, you can check out my project,
-[Svish/MyHymnal](https://github.com/svish/MyHymnal).
+If you want to see some more extensive use of this class, you can check out my project,
+[Svish/MyHymnal](https://github.com/svish/MyHymnal). There I also dump the result to a 
+file which you can load on [the website](http://myhymnal.net) by clicking a tiny *Debug* link in the bottom right corner.
 
 
 License
