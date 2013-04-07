@@ -7,6 +7,20 @@ The `Timer::__toString()` method will create a simple plain text overview,
 but you can of course also create your own output by using the properties 
 of the Timer objects directly.
 
+Installation
+---
+
+If you use [Composer](http://getcomposer.org), which I highly recommend, simply add
+the following dependency to your `composer.json`:
+
+        "require":
+	    {
+	    	"geekality/timer": "dev-master"
+    	},
+
+Otherwise just download the file `Timer.php` from here and include it in your project.
+It's self-contained so you only need this one file.
+
 Example usage
 ---
 
