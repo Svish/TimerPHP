@@ -1,16 +1,4 @@
-Introduction
-===
-
-Simple class for logging time and memory usage of methods and such.
-
-The `Timer::__toString()` method will create a simple plain text overview,
-but you can of course also create your own output by using the properties 
-of the Timer objects directly.
-
-Example usage
----
-
-    <?php // sample/add.php
+<?php
 
     class SlowMath
     {
@@ -51,26 +39,3 @@ Example usage
 
     // Stop all still running timers and print the result
     echo Timer::result();
-
-Which, if we visited `add.php?x=3&y=9` in our browser, would output:
-
-    12
-
-    /TimerPHP/sample/add.php(3, 9)
-     │ 
-     │ 3.001 s
-     │ 2.38 KiB, 727.87 KiB
-     │ 
-     ├ SlowMath::slowAdd(3, 9)
-     │  │ 
-     │  │ 2.000 s
-     │  │ 432.00 B, 727.87 KiB
-     │ ─┘ 
-
-
-License
-===
-
-This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
-
-![Creative Commons License](http://i.creativecommons.org/l/by/3.0/88x31.png)
