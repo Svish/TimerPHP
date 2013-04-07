@@ -68,10 +68,22 @@ class Timer
 
 	private function printStats($level = 0)
 	{
+		$parameters = $this->parameters;
+
+		foreach($parameters as &$p)
+			if($p === NULL)
+				$p = 'null';
+			elseif($p === TRUE)
+				$p = 'true';
+			elseif($p === FALSE)
+				$p = 'false';
+
+
 		echo $level == 0
 			? $this->name
 			: str_repeat(' │ ', $level-1).' ├ '.$this->name;
-		echo '('.implode(', ', $this->parameters).')'."\r\n";
+
+		echo '('.implode(', ', $parameters).')'."\r\n";
 
 		$level += 1;
 

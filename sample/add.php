@@ -10,7 +10,7 @@
             Timer::start(__METHOD__, func_get_args());
 
             // Do work
-            sleep(2);
+            sleep(4);
             $r = $x + $y;
 
             // Stop the timer we started for this method
@@ -33,9 +33,14 @@
 
     // Do some stuff taking time
     $math = new SlowMath();
-    echo $math->slowAdd($_GET['x'], $_GET['y']);
+    $math->slowAdd($_GET['x'], $_GET['y']);
     sleep(1);
-    echo "\r\n\r\n";
+
+    // null, true and false parameters will be replaced
+    // with a string representation when using __toString
+    Timer::start('test', array(null, true, false));
+    sleep(2);
+    Timer::stop();
 
     // Stop all still running timers and print the result
     echo Timer::result();
