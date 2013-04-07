@@ -30,7 +30,7 @@ Here is some sample output from the [sample/add.php](sample/add.php) script in t
      │ ─┘ 
 
 If you want to see some actual usage of this class, you can check out my project,
-[Svish/MyHymnal)(https://github.com/svish/MyHymnal).
+[Svish/MyHymnal](https://github.com/svish/MyHymnal).
 
 
 License
