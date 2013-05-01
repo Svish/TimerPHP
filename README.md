@@ -24,6 +24,14 @@ It's self-contained so you only need this one file.
 Example usage
 ---
 
+    Timer::start('root');
+    // Stuff
+    Timer::start('section');
+    // Sub section stuff
+    Timer::stop();
+    // More stuff
+    echo Timer::result();
+
 Here is some sample output from the [sample/add.php](sample/add.php) script in this repo.
 
     /TimerPHP/sample/add.php(3, 9)
